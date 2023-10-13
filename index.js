@@ -31,3 +31,7 @@ app.get('/product-2', function (req, res) {
 app.get('/projects', function (req, res) {
     res.render('pages/projects');
 });
+
+app.get('/maps', function (req, res) {
+    res.render('pages/maps');
+});
