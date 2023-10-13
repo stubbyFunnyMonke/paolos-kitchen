@@ -1,6 +1,9 @@
 // Load Node modules
 var express = require('express');
+var favicon = require('serve-favicon');
+var path = require('path');
 const ejs = require('ejs');
+
 // Initialise Express
 var app = express();
 // Render static files
@@ -35,3 +38,4 @@ app.get('/projects', function (req, res) {
 app.get('/maps', function (req, res) {
     res.render('pages/maps');
 });
+
